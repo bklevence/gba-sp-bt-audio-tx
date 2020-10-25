@@ -6,8 +6,8 @@ GBA SP Bluetooth Audio Transmitter
 
 Parts needed
 -------------------
-* GBA SP plug/audio cable sourced from: ([GBA SP Audio Adepter](https://en.wikipedia.org/wiki/Game_Boy_Advance_SP#/media/File:Nintendo-Game-Boy-Advance-Headphone-Adapter.jpg)
-* GBA Link Plug, need to de-solder from one of the following: ([Link Cable](https://en.m.wikipedia.org/wiki/GameCube_%E2%80%93_Game_Boy_Advance_link_cable) | [Wireless Adepter](https://en.m.wikipedia.org/wiki/Game_Boy_Advance_Wireless_Adapter))
+* GBA SP plug/audio cable sourced from: ([GBA SP Audio Adapter](https://en.wikipedia.org/wiki/Game_Boy_Advance_SP#/media/File:Nintendo-Game-Boy-Advance-Headphone-Adapter.jpg))
+* GBA Link Plug, need to de-solder from one of the following: ([Link Cable](https://en.m.wikipedia.org/wiki/GameCube_%E2%80%93_Game_Boy_Advance_link_cable) | [Wireless Adapter](https://en.m.wikipedia.org/wiki/Game_Boy_Advance_Wireless_Adapter))
 * DIY bt audio module: ([4.1 BT Transmitter Module, KCX_BT_EMITTER 5V](https://www.aliexpress.com/item/33058710334.html?spm=a2g0s.9042311.0.0.52ea4c4dOgsJLK) | [Need to find Aipods compatible version](about:blank))
 * PCB made diy or eventually osh park...
 
