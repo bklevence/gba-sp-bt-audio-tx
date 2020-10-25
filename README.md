@@ -6,10 +6,15 @@ GBA SP Bluetooth Audio Transmitter
 
 Parts needed
 -------------------
-* GBA SP audio cable ([Buy](http://www.amazon.com/inch-yds-Copper-Foil-Tape/dp/B00CBPM9RY/ref=sr_1_2?ie=UTF8&qid=1429671129&sr=8-2&keywords=copper+tape+3%22) | [HowTo](http://www.kobakant.at/DIY/?p=1132))
-* GBA Link Plug (need to de-solder from) ([Buy](http://www.digikey.com/product-detail/en/0/ATTINY85-20PU-ND) | [HowTo](about:blank))
-* DIY bt audio module(doesn't work with airpods)([Buy](http://www.digikey.com/product-detail/en/0/ATTINY85-20PU-ND) | [HowTo](about:blank))
-* PCB made
+* GBA SP plug/audio cable sourced from: ([GBA SP Audio Adepter](https://en.wikipedia.org/wiki/Game_Boy_Advance_SP#/media/File:Nintendo-Game-Boy-Advance-Headphone-Adapter.jpg)
+* GBA Link Plug, need to de-solder from one of the following: ([Link Cable](https://en.m.wikipedia.org/wiki/GameCube_%E2%80%93_Game_Boy_Advance_link_cable) | [Wireless Adepter](https://en.m.wikipedia.org/wiki/Game_Boy_Advance_Wireless_Adapter))
+* DIY bt audio module: ([4.1 BT Transmitter Module, KCX_BT_EMITTER 5V](https://www.aliexpress.com/item/33058710334.html?spm=a2g0s.9042311.0.0.52ea4c4dOgsJLK) | [Need to find Aipods compatible version](about:blank))
+* PCB made diy or eventually osh park...
+
+Find the cheapest plug you can via GBA-GB link cable, I have not tried taking apart a link cable to scavenge those plugs, I am not sure if they will have PCB through hole pins. Using Wireless Adapters can get expensive unless you want to use the larger case!
+
+You can find tons of SP audio cables on eBay for cheap.
+
 
 Repository Contents
 -------------------
