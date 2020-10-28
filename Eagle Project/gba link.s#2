@@ -290,7 +290,9 @@
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="20" drill="0">
+</class>
+<class number="1" name="New Class" width="0.508" drill="0">
 </class>
 </classes>
 <parts>
@@ -364,7 +366,7 @@
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="N$1" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <pinref part="+5V" gate="1" pin="P"/>
@@ -372,7 +374,7 @@
 <wire x1="12.7" y1="106.894128125" x2="25.7446625" y2="106.894128125" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$2" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="PGND" gate="1" pin="P"/>

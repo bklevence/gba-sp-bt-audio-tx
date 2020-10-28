@@ -101,137 +101,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Catskulls_link_port">
-<packages>
-<package name="GBA-LINK">
-<pad name="VCC" x="1.93" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
-<pad name="SI" x="0" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
-<pad name="SC" x="-1.93" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
-<pad name="SO" x="1.93" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
-<pad name="SD" x="0" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
-<pad name="GND" x="-1.93" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
-<pad name="S$2" x="5.25" y="-1.905" drill="2.2" diameter="3.5" rot="R270"/>
-<pad name="S$1" x="-5.22" y="-1.905" drill="2.2" diameter="3.5" rot="R270"/>
-<text x="2.630403125" y="2.958096875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">VCC</text>
-<text x="2.3702" y="-3.9487875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SO</text>
-<text x="0.449596875" y="2.93844375" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SI</text>
-<text x="0.509796875" y="-3.91861875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SD</text>
-<text x="-1.46" y="2.918615625" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SC</text>
-<text x="-1.24" y="-3.958271875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">GND</text>
-<wire x1="-4.318" y1="-8.001" x2="-4.318" y2="-3.81" width="0.127" layer="51"/>
-<wire x1="-4.318" y1="-0.127" x2="-4.318" y2="0.127" width="0.127" layer="21"/>
-<wire x1="4.318" y1="-8.001" x2="4.318" y2="-3.81" width="0.127" layer="51"/>
-<wire x1="4.318" y1="-0.127" x2="4.318" y2="0.127" width="0.127" layer="21"/>
-<wire x1="4.318" y1="0.127" x2="2.794" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-2.794" y1="0.127" x2="-4.318" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-4.318" y1="-8.001" x2="4.318" y2="-8.001" width="0.127" layer="51"/>
-<wire x1="-2.794" y1="-7.493" x2="2.794" y2="-7.493" width="0.127" layer="51" style="shortdash"/>
-<wire x1="2.794" y1="-7.493" x2="2.794" y2="-0.381" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-2.794" y1="-0.381" x2="-2.794" y2="-7.493" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-2.794" y1="-0.381" x2="2.794" y2="-0.381" width="0.127" layer="51" style="shortdash"/>
-<rectangle x1="-2.413" y1="-6.985" x2="-1.143" y2="-2.921" layer="51"/>
-<rectangle x1="-0.635" y1="-6.985" x2="0.635" y2="-2.921" layer="51"/>
-<rectangle x1="1.143" y1="-6.985" x2="2.413" y2="-2.921" layer="51"/>
-<wire x1="-4.318" y1="-4.191" x2="-4.318" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="4.318" y1="-4.191" x2="4.318" y2="-3.81" width="0.127" layer="21"/>
-</package>
-<package name="GBA-LINK-ALT">
-<pad name="S$1" x="-4.318" y="-1.651" drill="1.6" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="S$2" x="4.318" y="-1.651" drill="1.6" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="VCC" x="1.93" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
-<pad name="SI" x="0" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
-<pad name="SC" x="-1.93" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
-<pad name="SO" x="1.93" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
-<pad name="SD" x="0" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
-<pad name="GND" x="-1.93" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
-<text x="2.630403125" y="2.958096875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">VCC</text>
-<text x="2.3702" y="-3.9487875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SO</text>
-<text x="0.449596875" y="2.93844375" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SI</text>
-<text x="0.509796875" y="-3.91861875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SD</text>
-<text x="-1.46" y="2.918615625" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SC</text>
-<text x="-1.24" y="-3.958271875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">GND</text>
-<wire x1="-4.318" y1="-8.001" x2="-4.318" y2="-3.175" width="0.127" layer="51"/>
-<wire x1="-4.318" y1="-0.127" x2="-4.318" y2="0.127" width="0.127" layer="21"/>
-<wire x1="4.318" y1="-8.001" x2="4.318" y2="-3.175" width="0.127" layer="51"/>
-<wire x1="4.318" y1="-0.127" x2="4.318" y2="0.127" width="0.127" layer="21"/>
-<wire x1="4.318" y1="0.127" x2="2.794" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-2.794" y1="0.127" x2="-4.318" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-4.318" y1="-8.001" x2="4.318" y2="-8.001" width="0.127" layer="51"/>
-<wire x1="-2.794" y1="-7.493" x2="2.794" y2="-7.493" width="0.127" layer="51" style="shortdash"/>
-<wire x1="2.794" y1="-7.493" x2="2.794" y2="-0.381" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-2.794" y1="-0.381" x2="-2.794" y2="-7.493" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-2.794" y1="-0.381" x2="2.794" y2="-0.381" width="0.127" layer="51" style="shortdash"/>
-<rectangle x1="-2.413" y1="-6.985" x2="-1.143" y2="-2.921" layer="51"/>
-<rectangle x1="-0.635" y1="-6.985" x2="0.635" y2="-2.921" layer="51"/>
-<rectangle x1="1.143" y1="-6.985" x2="2.413" y2="-2.921" layer="51"/>
-<wire x1="-4.318" y1="-4.191" x2="-4.318" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="4.318" y1="-4.191" x2="4.318" y2="-3.175" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="GBA-LINK">
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="VCC" x="-12.7" y="2.54" length="middle"/>
-<pin name="SO" x="-12.7" y="0" length="middle"/>
-<pin name="SC" x="-12.7" y="-2.54" length="middle"/>
-<pin name="SI" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="SD" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="GND" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<text x="-7.366" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.112" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="SHIELD">
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<pin name="S$1" x="-7.62" y="-7.62" length="short" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GBA-LINK">
-<gates>
-<gate name="G$1" symbol="GBA-LINK" x="0" y="0"/>
-<gate name="G$2" symbol="SHIELD" x="-27.94" y="2.54" addlevel="request"/>
-</gates>
-<devices>
-<device name="" package="GBA-LINK">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SC" pad="SC"/>
-<connect gate="G$1" pin="SD" pad="SD"/>
-<connect gate="G$1" pin="SI" pad="SI"/>
-<connect gate="G$1" pin="SO" pad="SO"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$2" pin="S$1" pad="S$1 S$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="A" package="GBA-LINK-ALT">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SC" pad="SC"/>
-<connect gate="G$1" pin="SD" pad="SD"/>
-<connect gate="G$1" pin="SI" pad="SI"/>
-<connect gate="G$1" pin="SO" pad="SO"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$2" pin="S$1" pad="S$1 S$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="wirepad2">
 <description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -326,6 +195,116 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="Catskulls_link_portMirror">
+<packages>
+<package name="GBA-LINK-ALT">
+<pad name="S$1" x="-4.318" y="0" drill="1.6" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="S$2" x="4.318" y="0" drill="1.6" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="VCC" x="1.93" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
+<pad name="SI" x="0" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
+<pad name="SC" x="-1.93" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
+<pad name="SO" x="1.93" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
+<pad name="SD" x="0" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
+<pad name="GND" x="-1.93" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
+<wire x1="-2.794" y1="-0.381" x2="2.794" y2="-0.381" width="0.127" layer="51" style="shortdash"/>
+</package>
+<package name="GBA-LINK">
+<pad name="VCC" x="1.93" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
+<pad name="SI" x="0" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
+<pad name="SC" x="-1.93" y="0" drill="0.9" diameter="1.27" shape="offset" rot="R90"/>
+<pad name="SO" x="1.93" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
+<pad name="SD" x="0" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
+<pad name="GND" x="-1.93" y="-1.61" drill="0.9" diameter="1.27" shape="offset" rot="R270"/>
+<pad name="S$2" x="5.25" y="-1.905" drill="2.2" diameter="3.5" rot="R270"/>
+<pad name="S$1" x="-5.22" y="-1.905" drill="2.2" diameter="3.5" rot="R270"/>
+<text x="2.630403125" y="2.958096875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">VCC</text>
+<text x="2.3702" y="-3.9487875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SO</text>
+<text x="0.449596875" y="2.93844375" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SI</text>
+<text x="0.509796875" y="-3.91861875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SD</text>
+<text x="-1.46" y="2.918615625" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">SC</text>
+<text x="-1.24" y="-3.958271875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180">GND</text>
+<wire x1="-4.318" y1="-8.001" x2="-4.318" y2="-3.81" width="0.127" layer="51"/>
+<wire x1="-4.318" y1="-0.127" x2="-4.318" y2="0.127" width="0.127" layer="21"/>
+<wire x1="4.318" y1="-8.001" x2="4.318" y2="-3.81" width="0.127" layer="51"/>
+<wire x1="4.318" y1="-0.127" x2="4.318" y2="0.127" width="0.127" layer="21"/>
+<wire x1="4.318" y1="0.127" x2="2.794" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-2.794" y1="0.127" x2="-4.318" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="-8.001" x2="4.318" y2="-8.001" width="0.127" layer="51"/>
+<wire x1="-2.794" y1="-7.493" x2="2.794" y2="-7.493" width="0.127" layer="51" style="shortdash"/>
+<wire x1="2.794" y1="-7.493" x2="2.794" y2="-0.381" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-2.794" y1="-0.381" x2="-2.794" y2="-7.493" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-2.794" y1="-0.381" x2="2.794" y2="-0.381" width="0.127" layer="51" style="shortdash"/>
+<rectangle x1="-2.413" y1="-6.985" x2="-1.143" y2="-2.921" layer="51"/>
+<rectangle x1="-0.635" y1="-6.985" x2="0.635" y2="-2.921" layer="51"/>
+<rectangle x1="1.143" y1="-6.985" x2="2.413" y2="-2.921" layer="51"/>
+<wire x1="-4.318" y1="-4.191" x2="-4.318" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="4.318" y1="-4.191" x2="4.318" y2="-3.81" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GBA-LINK">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="VCC" x="-12.7" y="2.54" length="middle"/>
+<pin name="SO" x="-12.7" y="0" length="middle"/>
+<pin name="SC" x="-12.7" y="-2.54" length="middle"/>
+<pin name="SI" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="SD" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<text x="-7.366" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.112" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SHIELD">
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<pin name="S$1" x="-7.62" y="-7.62" length="short" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GBA-LINK">
+<gates>
+<gate name="G$1" symbol="GBA-LINK" x="0" y="0"/>
+<gate name="G$2" symbol="SHIELD" x="-27.94" y="2.54" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="GBA-LINK">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SC" pad="SC"/>
+<connect gate="G$1" pin="SD" pad="SD"/>
+<connect gate="G$1" pin="SI" pad="SI"/>
+<connect gate="G$1" pin="SO" pad="SO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$2" pin="S$1" pad="S$1 S$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="A" package="GBA-LINK-ALT">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SC" pad="SC"/>
+<connect gate="G$1" pin="SD" pad="SD"/>
+<connect gate="G$1" pin="SI" pad="SI"/>
+<connect gate="G$1" pin="SO" pad="SO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$2" pin="S$1" pad="S$1 S$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -338,7 +317,7 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Catskulls_link_port" deviceset="GBA-LINK" device="A"/>
+<part name="U$1" library="Catskulls_link_portMirror" deviceset="GBA-LINK" device="A"/>
 <part name="CON" library="wirepad2" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="DM" library="wirepad2" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="DP" library="wirepad2" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>

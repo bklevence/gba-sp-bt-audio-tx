@@ -169,7 +169,9 @@
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="20" drill="0">
+</class>
+<class number="1" name="New Class" width="0.508" drill="0">
 </class>
 </classes>
 <designrules name="default">
@@ -414,19 +416,27 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
-<signal name="N$1">
+<signal name="N$1" class="1">
 <contactref element="U$1" pad="VCC"/>
 <contactref element="+5V" pad="1"/>
-<wire x1="-17.12" y1="8.89" x2="-24.13" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.12" y1="8.89" x2="-17.12" y2="12.7" width="0.508" layer="1"/>
+<wire x1="-24.13" y1="12.7" x2="-24.13" y2="16.51" width="0.508" layer="1"/>
+<wire x1="-17.12" y1="12.7" x2="-24.13" y2="12.7" width="0.508" layer="1"/>
+<wire x1="-24.13" y1="16.51" x2="-24.13" y2="17.78" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$2">
+<signal name="N$2" class="1">
 <contactref element="U$1" pad="GND"/>
 <contactref element="PGND" pad="1"/>
 <contactref element="U$1" pad="SI"/>
 <contactref element="U$1" pad="SD"/>
-<wire x1="-20.98" y1="7.28" x2="-22.86" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.05" y1="7.28" x2="-20.98" y2="7.28" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.98" y1="7.28" x2="-20.98" y2="3.81" width="0.508" layer="1"/>
+<wire x1="-20.98" y1="3.81" x2="-20.98" y2="3.62595" width="0.508" layer="1"/>
+<wire x1="-22.86" y1="13.97" x2="-22.86" y2="17.78" width="0.508" layer="1"/>
+<wire x1="-20.98" y1="3.81" x2="-12.7" y2="3.81" width="0.508" layer="1"/>
+<wire x1="-12.7" y1="3.81" x2="-12.7" y2="13.97" width="0.508" layer="1"/>
+<wire x1="-12.7" y1="13.97" x2="-22.86" y2="13.97" width="0.508" layer="1"/>
 <wire x1="-19.05" y1="8.89" x2="-19.05" y2="7.28" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.98" y1="7.28" x2="-19.05" y2="7.28" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
