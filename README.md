@@ -3,6 +3,8 @@ GBA SP Bluetooth Audio Transmitter
 
 ![Gameboy](images/10222020.jpg?raw=true "GBA SP BT Mod Oct 2020")
 
+![Schematic markup](images/schematicmarkup.jpeg "rough in progress schematic")
+
 
 Parts needed
 -------------------
