@@ -27,6 +27,8 @@ Links/Sources
 * [/r/Gameboy](https://www.reddit.com/r/Gameboy/)
 * [Gameboy Advance Headphone Jack Mods](https://github.com/rorosaurus/gba-sp-headphone-jack)
 * [/u/mmaxeator's intermal bt mod](https://web.archive.org/web/20201025163111/https://mmax.tech/?p=3895&lang=en)
+* [Newer internal, need to find better adapter like this](https://www.reddit.com/r/Gameboy/comments/pwfgdh/update_ags001_unhinged_sp_bluetooth_mod_for/)
+* [something like this may work](https://www.aliexpress.com/item/1005001764137150.html?spm=a2g0o.productlist.0.0.45955e42yAVyGd&algo_pvid=224b6ea4-3445-40f3-a414-e6287c7ee70a&algo_exp_id=224b6ea4-3445-40f3-a414-e6287c7ee70a-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000017705120581%22%7D&pdp_pi=-1%3B29.99%3B-1%3B-1%40salePrice%3BUSD%3Bsearch-mainSearch)
 
 toDo
 -------------------
